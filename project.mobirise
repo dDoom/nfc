@@ -101,7 +101,7 @@
           },
           "title": "NFC Kiosker.Online",
           "text": "Приложения для удобного заказа товара с доставкой к вам надом! &nbsp;Ищите объявления в вашем подъезде или офисе, снабженые нашим логотипом, следуя инструкции просто поднесите телефон к понравивщемуся товару, и нажмите кнопку заказать!&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"https://play.google.com/store/apps/details?id=com.ionicframework.nfc_kiosker\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-android mbr-iconfont mbr-iconfont-btn\"></span>Android</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\"></span>iOS</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"https://play.google.com/store/apps/details?id=com.ionicframework.nfc_kiosker\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-android mbr-iconfont mbr-iconfont-btn\"></span>Android</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\"></span>Скоро</a> ",
           "_styles": {
             "H1": {
               "color": "#ffffff"
