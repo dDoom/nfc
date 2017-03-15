@@ -1,0 +1,37 @@
+#dropdown-menu-0 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-0 .nav .link,
+#dropdown-menu-0 .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+}
+#dropdown-menu-0 .navbar,
+#dropdown-menu-0 .dropdown-menu {
+  background: #000000;
+}
+#dropdown-menu-0 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-0 .dropdown-menu a:hover,
+#dropdown-menu-0 .dropdown-menu a:focus {
+  background: #000000;
+}
+#dropdown-menu-0 .navbar-toggler {
+  color: #ffffff;
+}
+#header1-6 H1 {
+  color: #ffffff;
+}
+#header1-6 .btn {
+  font-size: 18px;
+}
+#content5-3 .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-3 .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-3 .mbr-article {
+  color: #fff;
+}
