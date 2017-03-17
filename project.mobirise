@@ -8,8 +8,10 @@
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 7,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 13,
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/nfclogo-128x128.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -61,11 +63,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/photo-2017-03-14-15-46-128x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/nfclogo-1-128x128.png",
               "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "index.html",
+              "link": "#top",
               "title": "",
               "linkInNewWindow": false
             }
@@ -79,6 +81,14 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            "H1": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-size": "18px"
+            }
+          },
           "_anchor": "header1-6",
           "_params": {
             "parallax": true,
@@ -100,16 +110,8 @@
             "showArrow": true
           },
           "title": "NFC Kiosker.Online",
-          "text": "Приложения для удобного заказа товара с доставкой к вам надом! &nbsp;Ищите объявления в вашем подъезде или офисе, снабженые нашим логотипом, следуя инструкции просто поднесите телефон к понравивщемуся товару, и нажмите кнопку заказать!&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"https://play.google.com/store/apps/details?id=com.ionicframework.nfc_kiosker\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-android mbr-iconfont mbr-iconfont-btn\"></span>Android</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\"></span>Скоро</a> ",
-          "_styles": {
-            "H1": {
-              "color": "#ffffff"
-            },
-            ".btn": {
-              "font-size": "18px"
-            }
-          }
+          "text": "Приложения для удобного заказа товара с доставкой к Вам на дом!  Увидели понравившийся товар с нашим логотипом, просто поднесите телефон к изображению товара, и нажмите кнопку заказать!",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"https://play.google.com/store/apps/details?id=com.ionicframework.nfc_kiosker\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-android mbr-iconfont mbr-iconfont-btn\"></span>ANDROID</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\"></span>СКОРО &nbsp; &nbsp; &nbsp;</a> "
         },
         {
           "_tags": [
@@ -118,7 +120,7 @@
           "_name": "features1",
           "_anchor": "features1-1",
           "_params": {
-            "paddingTop": 3,
+            "paddingTop": "1",
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
@@ -145,9 +147,14 @@
           "subheader": "By John Smith posted July 30, 2015",
           "media1": {
             "image": {
-              "src": "images/bootstrap.png",
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/002-smartphone-with-wireless-internet-600x600.png",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -160,8 +167,7 @@
               "family": "MobiriseIcons",
               "link": "",
               "size": 0,
-              "newWindow": false,
-              "active": true
+              "newWindow": false
             }
           },
           "title1": "NFC МЕТКА",
@@ -169,9 +175,14 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media2": {
             "image": {
-              "src": "images/responsive.png",
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/qr-600x600.png",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -183,8 +194,7 @@
               "name": "touch",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
-              "active": true
+              "size": 0
             }
           },
           "title2": "QR-КОД",
@@ -192,9 +202,14 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media3": {
             "image": {
-              "src": "images/google-fonts.png",
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/001-credit-card-600x600.png",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -206,8 +221,7 @@
               "name": "credit-card",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
-              "active": true
+              "size": 0
             }
           },
           "title3": "БАНКОВСКАЯ КАРТА",
@@ -215,9 +229,14 @@
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media4": {
             "image": {
-              "src": "images/unlimited-websites.png",
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logistics-delivery-truck-in-movement-600x600.png",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -229,8 +248,7 @@
               "name": "delivery",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
-              "active": true
+              "size": 0
             }
           },
           "title4": "ДОСТАВКА",
@@ -290,6 +308,9 @@
             },
             ".mbr-article": {
               "color": "#fff"
+            },
+            ".mbr-article P": {
+              "color": "#ffffff"
             }
           },
           "_tags": [
@@ -306,7 +327,7 @@
             "showButton": false,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "images/bg3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1209.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -319,7 +340,7 @@
             "showMeta": false,
             "darkBackground": true
           },
-          "title": "УДОБНО ИСПОЛЬЗОВАТЬ!",
+          "title": "ПРОСТО, НАДЕЖНО, ЛЕГКО!",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Приложение Kiosker.Online работает только с проверенными партнерами, это позволяет гарантировать качество товара и опреативность доставки! Для повторного заказа просто найдите заказ в истории и нажмите повторить заказ.</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
@@ -393,11 +414,11 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/photo-2017-03-14-15-46-265x265.jpg",
+              "src": "@PROJECT_PATH@/assets/images/nfclogo-265x265.png",
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
-              "link": "index.html",
+              "link": "#top",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -408,9 +429,257 @@
               "size": 0
             }
           },
-          "text1": "<strong>АДРЕС</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text1": "<strong>АДРЕС</strong><br>ИП Панасюк С.И. <br>620102 Россия, Екатеринбург Ясная 1 корпус 6<br>",
           "text2": "<b>КОНТАКТЫ</b><br>\nEmail: info@kiosker.online<br>\nPhone: +7 (0) 000 0000 001<br>\nFax: +7 (0) 000 0000 002",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><br></li></ul>"
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>Список товара</li></ul>"
+        }
+      ]
+    },
+    "catalog.html": {
+      "settings": {
+        "title": "kisoker.online",
+        "meta_descr": "список товара"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-a",
+          "title": "Уже сейчас возможно заказать&nbsp;",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "Следите за новостями список постоянно расширяется&nbsp;"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#000000"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-b",
+          "_params": {
+            "imageSize": "18",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": false,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/20110329134048-1a-1400x2100.jpg",
+              "link": "http://www.aqua-vista.ru/15/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "headerAlign": "left",
+          "title": "Питьевая вода \"Виста\"",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#000000"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-c",
+          "_params": {
+            "imageSize": "17",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": false,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/bayern-kr-big-7cc3c2357948280d0e29ff3993bc788c-1400x840.jpg",
+              "link": "catalog.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "headerAlign": "left",
+          "title": "Пицца «Баварская» круг",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#000000"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-7",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/nfclogo-1-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Kiosker.Online</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-1\" aria-expanded=\"true\">ВОЗМОЖНОСТИ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-3\" aria-expanded=\"true\">ПОДРОБНОСТИ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-4\" aria-expanded=\"true\">ОБРАТНАЯ СВЯЗЬ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-8",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nfclogo-265x265.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "#top",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>АДРЕС</strong><br>ИП Панасюк С.И. <br>620102 Россия, Екатеринбург Ясная 1 корпус 6<br>",
+          "text2": "<b>КОНТАКТЫ</b><br>\nEmail: info@kiosker.online<br>\nPhone: +7 (0) 000 0000 001<br>\nFax: +7 (0) 000 0000 002",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>Список товара</li></ul>"
         }
       ]
     }

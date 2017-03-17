@@ -35,3 +35,44 @@
 #content5-3 .mbr-article {
   color: #fff;
 }
+#content5-3 .mbr-article P {
+  color: #ffffff;
+}
+#msg-box4-b .mbr-header__text {
+  color: #000000;
+}
+#msg-box4-b .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-b .mbr-article {
+  color: #ffffff;
+}
+#msg-box4-c .mbr-header__text {
+  color: #000000;
+}
+#msg-box4-c .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-c .mbr-article {
+  color: #ffffff;
+}
+#dropdown-menu-7 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-7 .nav .link,
+#dropdown-menu-7 .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+}
+#dropdown-menu-7 .navbar,
+#dropdown-menu-7 .dropdown-menu {
+  background: #000000;
+}
+#dropdown-menu-7 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-7 .dropdown-menu a:hover,
+#dropdown-menu-7 .dropdown-menu a:focus {
+  background: #000000;
+}
+#dropdown-menu-7 .navbar-toggler {
+  color: #ffffff;
+}
